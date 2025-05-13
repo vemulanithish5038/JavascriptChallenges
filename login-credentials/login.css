@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-credentials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: rgb(208, 211, 211);
+    border-radius: 10px;
+    padding: 0px;
+}
+
+
+.website-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.website-name svg {
+    padding-right: 10px;
+}
+
+/* .login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+/* .login-button button {
+    padding: 8px 70px;
+    font-size: medium;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 10px;
+    border: .5px solid rgb(41, 40, 40);
+}
+
+.login-button button:hover {
+    color: black;
+    background-color: rgb(123, 122, 122);
+} */
+
+.input-text-area,
+.login-form-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: large;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.input-text-area input,
+.login-form-details input {
+    padding: 7px 20px;
+    background-color: rgb(247, 246, 246);
+    border: 2px solid rgb(170, 167, 167);
+    border-radius: 7px;
+
+}
+
+#input-text-area,
+.login-form-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#switch-user-again,
+#switch-to-registeration,
+#switch-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    /* padding: 10px; */
+    margin-bottom: 25px;
+    /* padding-bottom: 50px; */
+}
+
+#login-form{
+    display: block;
+}
+#signin-form{
+    display: none;
+}
+
+#change-credentials1,#change-credentials2{
+    padding: 3px 10px;
+}
+
+.bold{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-weight: 600;
+    /* padding: 2px 10px; */
+}
+
+
+#switch-user-again{
+    display: none;
+    
+}
+
+#switch-to-registeration{
+    display: block;
+}
